@@ -117,21 +117,21 @@ def print_banner():
         console.print()
 
         
-        info_text = "[green]Author[/green]   : Chris 'SaintDruG' Abou-Chabké\n"
-        info_text += "[magenta]Website[/magenta]  : https://www.blackhatethicalhacking.com\n"
-        info_text += "[red]Github[/red]   : https://github.com/blackhatethicalhacking\n"
-        info_text += "[yellow]WARNING[/yellow]  : Educational Use Only - Authorized Testing Required"
+        info_text = "[green]Author[/green]   : THESIXCLOWN
+        info_text += "[magenta]Website[/magenta]  : "
+        info_text += "[red]Github[/red]   :
+        info_text += "[yellow]WARNING[/yellow]  : 
         
         console.print(Panel(info_text, border_style="magenta", box=box.ROUNDED))
     else:
         # Fallback for no Rich
         print(colored("=" * 60, 'cyan'))
-        print(colored("          DDoSlayer v3.0 - Ultimate Edition", 'green'))
+        print(colored("          DDDoS-PROMAX", 'green'))
         print(colored("=" * 60, 'cyan'))
-        print(colored("Author   : Chris 'SaintDruG' Abou-Chabké", 'green'))
-        print(colored("Website  : https://www.blackhatethicalhacking.com", 'magenta'))
-        print(colored("Github   : https://github.com/blackhatethicalhacking", 'red'))
-        print(colored("WARNING  : Educational Use Only - Authorized Testing Required", 'yellow'))
+        print(colored("Author   : THESIXCLOWN", 'green'))
+        print(colored(
+        print(colored(
+        print(colored(
         print(colored("=" * 60, 'cyan'))
 
 def get_random_headers():
